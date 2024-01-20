@@ -50,6 +50,7 @@ dependencies {
     testImplementation "net.serenity-bdd:serenity-saucelabs:${SERENITY_VERSION}"
     implementation "ch.qos.logback:logback-classic:${LOGBACK_CLASSIC_VERSION}"
     testImplementation "org.assertj:assertj-core:${ASSERTJ_CORE_VERSION}"
+    implementation 'org.slf4j:slf4j-nop:2.0.7'
 }
 
 test {
