@@ -1,0 +1,8 @@
+Conclusión:
+Los resultados obtenidos de las pruebas en el sistema de la tienda SauceDemo reflejan un desempeño positivo, evidenciando la eficacia del sistema en la realización de compras online. La implementación de las pruebas end-to-end utilizando SerenityBDD y ScreenPlay ha demostrado ser una estrategia efectiva para validar el proceso de compra.
+
+Recomendaciones para la Automatización:
+
+Escenarios Outline: Se sugiere utilizar escenarios outline, como el presentado en el caso "T-CA01 - Proceso de compra exitosa", con el propósito de permitir la ejecución de pruebas con diversas combinaciones de datos. Esto facilitará la cobertura de casos de prueba adicionales y garantizará una mayor robustez en la automatización.
+Recomendación de Mantenimiento: Para mejorar la flexibilidad y facilitar el mantenimiento continuo del script de automatización, se recomienda incorporar la lectura de datos a través de archivos CSV u otro formato compatible. Esta práctica permitirá una gestión más eficiente de los conjuntos de datos de prueba sin necesidad de modificar directamente el código fuente.
+Datos Variados o Aleatorios: Para evitar el "Desgaste de las pruebas o paradoja del pesticida" y garantizar una mayor exhaustividad en las pruebas, se recomienda incorporar datos variados o aleatorios en los escenarios de prueba. Esto asegurará que las pruebas sean más representativas de situaciones del mundo real y no se limiten a un conjunto fijo de datos.
