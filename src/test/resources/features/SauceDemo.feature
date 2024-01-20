@@ -1,7 +1,8 @@
 @SauceDemoChallenger
 Feature: Compra de Produtos en SauceDemo
 
-  Scenario Outline: Proceso de compra exitosa
+  @CompraExitosa
+  Scenario Outline: T-CA01- Proceso de compra exitosa
     Given que el cliente ingresa a la url saucedemo.com
     When se autentica con el usuario <username> y password <password>
     Then agrega dos productos producto1 <product1> y producto2 <product2> al carrito y lo visualizo
